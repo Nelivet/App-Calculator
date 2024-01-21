@@ -31,8 +31,7 @@
                                                     <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="deleteAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YxU-ZV-qz1"/>
-                                                    <action selector="deleteAllTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Od-PB-hnF"/>
+                                                    <action selector="deleteAllTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kls-oT-e6o"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zlm-XH-yqr">
@@ -62,7 +61,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title=" / ">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
-                                                    <color key="baseForegroundColor" red="0.95324307680130005" green="0.58951699733734131" blue="0.24213635921478271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="divideTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c3S-ae-NYq"/>
@@ -206,10 +205,11 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbK-AS-H8F">
                                                 <rect key="frame" x="310.5" y="0.0" width="103.5" height="122"/>
+                                                <color key="backgroundColor" red="0.94210034610000004" green="0.46466612819999997" blue="0.2232383788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="+">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
-                                                    <color key="baseForegroundColor" red="0.95324307680130005" green="0.58951699733734131" blue="0.24213635921478271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="additionTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iey-pS-PRD"/>
@@ -285,7 +285,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.33980280159999998" green="0.24937182660000001" blue="0.34091085199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="XgG-xd-QMU" secondAttribute="trailing" constant="20" id="7Ni-V4-Qxy"/>
                                     <constraint firstItem="XgG-xd-QMU" firstAttribute="leading" secondItem="3R7-Ti-V3V" secondAttribute="leading" id="81d-Ae-kix"/>
