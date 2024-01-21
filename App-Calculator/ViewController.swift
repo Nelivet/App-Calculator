@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var calculatorOperations: UILabel!
    
     @IBOutlet weak var calculatorResults: UILabel!
+
     
     
     var operations:String = ""
@@ -19,8 +20,39 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         deleteAll()
+        applyButtonStyles()
         
     }
+    
+    
+    
+    func applyButtonStyles(to stackView: UIStackView) {
+        // Get the buttons inside the stack view
+        let buttons = stackView.subviews.compactMap { $0 as? UIButton }
+
+        // Iterate through buttons and apply styles
+        for button in buttons {
+            button.layer.borderWidth = 1.0
+            button.layer.borderColor = UIColor.black.cgColor
+            button.layer.cornerRadius = 8.0
+            button.clipsToBounds = true
+        }
+
+        // Iterate through the internal stack views
+        for internalStackView in stackView.subviews.compactMap({ $0 as? UIStackView }) {
+            // Recursively call the function for internal stack views
+            applyButtonStyles(to: internalStackView)
+        }
+    }
+
+    func applyButtonStyles() {
+        // Get the main stack view that contains all other stack views
+        if let mainStackView = view.subviews.compactMap({ $0 as? UIStackView }).first {
+            // Call the function to style buttons at all nesting levels
+            applyButtonStyles(to: mainStackView)
+        }
+    }
+
     
     func deleteAll()
     {

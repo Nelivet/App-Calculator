@@ -25,6 +25,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZm-Rt-Xue">
                                                 <rect key="frame" x="0.0" y="0.0" width="103.5" height="122"/>
+                                                <color key="backgroundColor" red="0.39856645460000001" green="0.3114043474" blue="0.40338861939999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="AC">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
@@ -36,6 +37,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zlm-XH-yqr">
                                                 <rect key="frame" x="103.5" y="0.0" width="103.5" height="122"/>
+                                                <color key="backgroundColor" red="0.39856645460000001" green="0.3114043474" blue="0.40338861939999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="⌦">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
@@ -47,10 +49,11 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGi-Ct-zyB">
                                                 <rect key="frame" x="207" y="0.0" width="103.5" height="122"/>
+                                                <color key="backgroundColor" red="0.40213364359999998" green="0.31130632759999999" blue="0.39988249539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="%">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
-                                                    <color key="baseForegroundColor" red="0.95324307680130005" green="0.58951699733734131" blue="0.24213635921478271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="percentageTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kV8-ns-Nx4"/>
@@ -58,6 +61,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAI-gu-wbg">
                                                 <rect key="frame" x="310.5" y="0.0" width="103.5" height="122"/>
+                                                <color key="backgroundColor" red="0.95324307680130005" green="0.58951699733734131" blue="0.24213635921478271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title=" / ">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
@@ -107,10 +111,11 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tem-TP-lUe">
                                                 <rect key="frame" x="310.5" y="0.0" width="103.5" height="122"/>
+                                                <color key="backgroundColor" red="0.95324307680130005" green="0.58951699733734131" blue="0.24213635921478271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="x">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
-                                                    <color key="baseForegroundColor" red="0.95324307680130005" green="0.58951699733734131" blue="0.24213635921478271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="multiplierTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4QX-r0-gPn"/>
@@ -156,10 +161,11 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPf-5S-U8j">
                                                 <rect key="frame" x="310.5" y="0.0" width="103.5" height="122.5"/>
+                                                <color key="backgroundColor" red="0.95324307680130005" green="0.58951699733734131" blue="0.24213635921478271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="-">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
-                                                    <color key="baseForegroundColor" red="0.95324307680130005" green="0.58951699733734131" blue="0.24213635921478271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="subtractionTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YA3-ap-NBP"/>
@@ -205,7 +211,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbK-AS-H8F">
                                                 <rect key="frame" x="310.5" y="0.0" width="103.5" height="122"/>
-                                                <color key="backgroundColor" red="0.94210034610000004" green="0.46466612819999997" blue="0.2232383788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.95324307680130005" green="0.58951699733734131" blue="0.24213635921478271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="+">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
@@ -252,7 +258,7 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekm-8g-JKJ">
                                                         <rect key="frame" x="0.0" y="0.0" width="207" height="122"/>
-                                                        <color key="backgroundColor" red="0.94210034610000004" green="0.46466612819999997" blue="0.2232383788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" red="0.95324307680130005" green="0.58951699733734131" blue="0.24213635921478271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="=">
                                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
