@@ -10,7 +10,9 @@ Use a simple expression to do the work of math operations. An alert dialog box i
 
 
 
-https://github.com/Nelivet/App-Calculator/assets/93177387/b16727ba-b670-4898-916f-ebee7622f0d2
+https://github.com/Nelivet/App-Calculator/assets/93177387/389c95c9-b5ef-4cda-8e88-5a5496a0b734
+
+
 
 ![Captura de Pantalla 2024-01-21 a la(s) 01 31 01](https://github.com/Nelivet/App-Calculator/assets/93177387/697d2a68-0c05-4ebe-b367-5cfb4c8a8d4a)
 
