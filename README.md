@@ -16,6 +16,7 @@ https://github.com/Nelivet/App-Calculator/assets/93177387/b16727ba-b670-4898-916
 
 📱 :white_check_mark:
 
+![Captura de Pantalla 2024-01-21 a la(s) 01 52 07](https://github.com/Nelivet/App-Calculator/assets/93177387/42251668-310a-4ac0-b4f8-be46b1a46b39)
 
 ### **Creditos**
 ____________________________________________________________________________________________________________________________________________
